@@ -1,0 +1,171 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+button {
+background: #1B788A;
+color: white;
+border: none;
+float: right;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+}
+
+.slider {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#1B788A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    border: 1em black
+}    
+
+.slider a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+a{
+color: #AC6420;
+margin: auto;
+display: block;
+}
+
+a:hover{
+    color:grey;
+}
+
+.slider .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+li {
+
+text-decoration: none;
+}
+
+#main-index {
+display: grid;
+grid-auto-columns: 1fr, 0.5fr, 0.5fr, 1fr;
+grid-auto-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+
+}
+
+h1 {
+margin: auto; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 4em;  
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+h2 {
+margin: auto;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 2%;
+
+
+}
+
+#logo {
+width: 5%;
+float: left;
+}
+
+p{
+margin-top: 30px;
+margin-bottom: 60px;
+padding-top: 40px;
+margin-left: 25%;
+margin-right: 25%;
+font-size: 1em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+text-align: center;
+margin-top: 25%;
+
+}
+
+#icons{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+justify-content: space-evenly;
+
+}
+
+.flexitem1{
+flex: 0 1 10%;
+margin-bottom: 5%;
+}
+
+.flexitem2{
+flex: 0 1 10%;
+margin-bottom: 5%;
+}
+
+.flexitem3{
+flex: 0 1 10%;
+margin-bottom: 5%;
+}
+
+.flexitem4{
+flex: 0 1 10%; 
+margin-bottom: 5%;   
+}
+
+.flexitem5{
+flex: 0 1 10%;
+margin-bottom: 5%;
+}
+
+img{ 
+margin: auto;
+align-self: center;
+height: auto;
+display: block;
+
+}
+
+#logo{
+width: 10%;
+height: auto
+
+}
+
+#lotr img{
+max-width: 50%;
+width: 50%;
+height: auto;
+
+}
+
+#selfies img {
+border-radius: 100%;
+width: 20%;
+
+}
